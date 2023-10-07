@@ -62,3 +62,12 @@ body{
     margin-top: 35px;
     background-color: rgba(87, 6,61);
     color: aliceblue;
+}
+.container .card-two .grup-3 .biodata{
+    display: inline-block;
+    padding: 2px 60px 2px 30px;
+    margin-left: -20px;
+    margin-top: 35px;
+    background-color: rgba(87, 6,61);
+    color: aliceblue;
+}
