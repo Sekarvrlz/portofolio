@@ -1,0 +1,64 @@
+* {
+    front-family:"montserrat",sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 230, 234);
+}
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0,0,0,7);
+}
+.container .card-one{
+    padding: 50px 30px;
+    padding-left: 40px;
+    background-color: rgb(87, 6, 61);
+    width: 100%;
+    color: darkgray;
+
+}
+.container .card-one .profile{
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #2c2b29;
+    background-image: url("foto.jpg");
+    background-position: center top;
+    background-size: 100%;
+}
+.container .card-two .head-title{
+    font-size: medium;
+    font-style: normal;
+    color: rgb(84, 2, 46);
+    font-weight: 400;
+}
+.container .card-two .box{
+    display: inline-block;
+    padding: 2px 60px 2px 30px;
+    margin-left: -20px;
+    margin-top: 35px;
+    background-color: rgba(87, 6,61);
+    color: aliceblue;
+}
+.container .card-two .grup-1 .box .desc{
+    position: relative;
+    margin-top: 15px;
+    margin-left:20px ;
+}
+.container .card-two .grup-2 .box{
+    display: inline-block;
+    padding: 2px 60px 2px 30px;
+    margin-left: -20px;
+    margin-top: 35px;
+    background-color: rgba(87, 6,61);
+    color: aliceblue;
