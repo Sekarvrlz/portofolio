@@ -37,8 +37,8 @@ body{
     background-size: 100%;
 }
 .container .card-two .head-title{
-    font-size: medium;
-    font-style: normal;
+    font-size: 1cm;
+    font-style: unset;
     color: rgb(84, 2, 46);
     font-weight: 400;
 }
@@ -57,17 +57,24 @@ body{
 }
 .container .card-two .grup-2 .box{
     display: inline-block;
-    padding: 2px 60px 2px 30px;
+    padding: 2px 60px ;
     margin-left: -20px;
     margin-top: 35px;
     background-color: rgba(87, 6,61);
     color: aliceblue;
+    
 }
+
 .container .card-two .grup-3 .biodata{
     display: inline-block;
-    padding: 2px 60px 2px 30px;
+    padding: 2px 80px ;
     margin-left: -20px;
     margin-top: 35px;
     background-color: rgba(87, 6,61);
     color: aliceblue;
+
+}
+.BIODATA, td {
+    padding: 9px 15px;
+
 }
